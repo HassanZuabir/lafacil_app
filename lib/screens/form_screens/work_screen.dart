@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:lafacil_app/screens/form_screens/reuslt_recources_screen.dart';
+import 'package:lafacil_app/screens/form_screens/tech_stack_screen.dart';
 
 class WorkScreen extends StatefulWidget {
   const WorkScreen({Key? key}) : super(key: key);
@@ -8,7 +11,7 @@ class WorkScreen extends StatefulWidget {
 }
 
 class _WorkScreenState extends State<WorkScreen> {
-  var option1='',option2='',option3='',option4='',option5='',option6='';
+  var option1='';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -446,6 +449,14 @@ class _WorkScreenState extends State<WorkScreen> {
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: ElevatedButton(
                           onPressed: (){
+                            if(option1 == 'op5'){
+                              Get.to(ResultResourcesScreen());
+                            }
+                            else if(option1 == 'op7'){
+                              Get.to(ResultResourcesScreen());
+                            }else{
+                              Get.to(TechStackScreen(option: option1));
+                            }
                           },
                           child: Text('Next',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                           style: ButtonStyle(
@@ -461,7 +472,7 @@ class _WorkScreenState extends State<WorkScreen> {
                       ),
                     ),
                   ),
-
+                  SizedBox(height: 48,)
                 ],
               ),
             ),
