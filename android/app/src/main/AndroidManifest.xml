@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lafacil.lafacil_app.lafacil_app">
    <application
-        android:label="lafacil_app"
+        android:label="Lafacil"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
