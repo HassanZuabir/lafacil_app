@@ -18,6 +18,9 @@ class MyApp extends StatelessWidget {
           statusBarIconBrightness: Brightness.dark,
         )
     );
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
     return GetMaterialApp(
       title: 'Lafacil',
       debugShowCheckedModeBanner: false,
