@@ -64,7 +64,7 @@ class _PositionFormScreenState extends State<PositionFormScreen> {
                             },
                             child: Container(
                               width: MediaQuery.of(context).size.width * 1,
-                              height: 60,
+                              height: Get.height * .08,
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.only(
@@ -123,7 +123,7 @@ class _PositionFormScreenState extends State<PositionFormScreen> {
                             },
                             child: Container(
                               width: MediaQuery.of(context).size.width * 1,
-                              height: 60,
+                              height: Get.height * .08,
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.only(
@@ -183,7 +183,7 @@ class _PositionFormScreenState extends State<PositionFormScreen> {
                             },
                             child: Container(
                               width: MediaQuery.of(context).size.width * 1,
-                              height: 60,
+                              height: Get.height * .08,
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.only(
@@ -243,7 +243,7 @@ class _PositionFormScreenState extends State<PositionFormScreen> {
                             },
                             child: Container(
                               width: MediaQuery.of(context).size.width * 1,
-                              height: 60,
+                              height: Get.height * .08,
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.only(
@@ -302,7 +302,7 @@ class _PositionFormScreenState extends State<PositionFormScreen> {
                             },
                             child: Container(
                               width: MediaQuery.of(context).size.width * 1,
-                              height: 60,
+                              height: Get.height * .08,
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.only(
@@ -362,7 +362,7 @@ class _PositionFormScreenState extends State<PositionFormScreen> {
                             },
                             child: Container(
                               width: MediaQuery.of(context).size.width * 1,
-                              height: 60,
+                              height: Get.height * .08,
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.only(

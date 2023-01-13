@@ -32,7 +32,6 @@ class _WorkScreenState extends State<WorkScreen> {
           children: [
 
             Expanded(
-
               flex: 9,
               child: Container(
                 width: MediaQuery.of(context).size.width * 1,
@@ -57,7 +56,7 @@ class _WorkScreenState extends State<WorkScreen> {
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1,
-                          height: 60,
+                          height: Get.height * .08,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
@@ -114,7 +113,7 @@ class _WorkScreenState extends State<WorkScreen> {
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1,
-                          height: 60,
+                          height: Get.height * .08,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
@@ -172,7 +171,7 @@ class _WorkScreenState extends State<WorkScreen> {
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1,
-                          height: 60,
+                          height: Get.height * .08,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
@@ -230,7 +229,7 @@ class _WorkScreenState extends State<WorkScreen> {
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1,
-                          height: 60,
+                          height: Get.height * .08,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
@@ -287,7 +286,7 @@ class _WorkScreenState extends State<WorkScreen> {
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1,
-                          height: 60,
+                          height: Get.height * .08,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
@@ -345,7 +344,7 @@ class _WorkScreenState extends State<WorkScreen> {
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1,
-                          height: 60,
+                          height: Get.height * .08,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
@@ -403,7 +402,7 @@ class _WorkScreenState extends State<WorkScreen> {
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width * 1,
-                          height: 60,
+                          height: Get.height * .08,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.only(
