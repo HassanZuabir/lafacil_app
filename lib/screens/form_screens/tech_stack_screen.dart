@@ -24,6 +24,16 @@ class _TechStackScreenState extends State<TechStackScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0.0,
+        centerTitle: true,
+        title: Image.asset(height:24,'assets/images/app_name_black.png'),
+        iconTheme: IconThemeData(
+            color: Colors.black
+        ),
+      ),
       body: Padding(
           padding: const EdgeInsets.only(top: 28.0),
           child: SizedBox(
@@ -39,7 +49,6 @@ class _TechStackScreenState extends State<TechStackScreen> {
                             width: MediaQuery.of(context).size.width * 1,
                             height: MediaQuery.of(context).size.height * 1,
                             child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Padding(
                                   padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -354,7 +363,6 @@ class _TechStackScreenState extends State<TechStackScreen> {
                                 width: MediaQuery.of(context).size.width * 1,
                                 height: MediaQuery.of(context).size.height * 1,
                                 child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Padding(
                                       padding:
@@ -1295,12 +1303,10 @@ class _TechStackScreenState extends State<TechStackScreen> {
                       )
                     : widget.option == 'op3'
                         ? Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Expanded(
                                 flex: 9,
                                   child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Padding(
                                         padding: const EdgeInsets.symmetric(
@@ -1836,12 +1842,10 @@ class _TechStackScreenState extends State<TechStackScreen> {
                           )
                         : widget.option == 'op4'
                             ? Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Expanded(
                                     flex: 9,
                                       child: Column(
-                                        mainAxisAlignment: MainAxisAlignment.center,
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.symmetric(
@@ -2404,12 +2408,10 @@ class _TechStackScreenState extends State<TechStackScreen> {
                               )
                           :widget.option == 'op6'
                               ?Column(
-              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Expanded(
                     flex: 9,
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Padding(
                           padding: const EdgeInsets.symmetric(

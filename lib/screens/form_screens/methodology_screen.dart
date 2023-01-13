@@ -15,6 +15,16 @@ class _MethodologyScreenState extends State<MethodologyScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0.0,
+        centerTitle: true,
+        title: Image.asset(height:24,'assets/images/app_name_black.png'),
+        iconTheme: IconThemeData(
+            color: Colors.black
+        ),
+      ),
       body: SizedBox(
           width: MediaQuery.of(context).size.width * 1,
           height: MediaQuery.of(context).size.height * 1,
@@ -26,7 +36,6 @@ class _MethodologyScreenState extends State<MethodologyScreen> {
                   width: MediaQuery.of(context).size.width * 1,
                   height: MediaQuery.of(context).size.height * 1,
                   child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 16.0),
